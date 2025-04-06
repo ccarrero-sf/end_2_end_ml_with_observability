@@ -4,6 +4,8 @@ This setup show how to use Snowflake Model Monitors to track Model performance a
 
 Labels are updated everytime new records are added, so we can compare the prediction that was done by the model with the real value. Model Monitor helps tracking performance.
 
+Base on the performance of the model it triggers the training of a new model.
+
 The notebook shows end to end how to build models within Snowflake. It uses
 
 - Snowflake Notebook with Container Runtime
