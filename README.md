@@ -123,3 +123,14 @@ As a bonus, we can use again Cortex AI to provide a summary from customers. We h
 
 ![image](img/11_streamlit.png)
 
+### Inference using Snowpark Container Services
+
+Finally, we can create a compute pool (with CPUs or GPUs) and create a service to be run in that pool. We simple can get the model from the Model Registry (or log it) and call  create_service() for that model, specifying the compute pool to be used.
+
+This single call creates a container image, packages everything needed and the model and create an endpoint for model serving.
+
+![image](img/12_create_service.png)
+
+We can see the model within Inference Services:
+
+![image](img/13_model.png)
