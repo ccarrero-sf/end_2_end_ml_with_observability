@@ -85,7 +85,7 @@ In this demo, all models are storing predictions in the same table with differen
 
 We have created a function to calculate and return metrics. This is used to measure performance for models on the new labeled data. Main metric used in the demo is F1_SCORE but all these are available as of today:
 
-![image](img/7_model_merics.png)
+![image](img/7_model_metrics.png)
 
 ### Workflow
 
