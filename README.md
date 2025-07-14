@@ -24,9 +24,16 @@ The end result will be having end-to-end models with full lineage:
 Let's review the steps taken:
 
 ## Setup
-### Generate sales, feedback and customer data
 
-You have to run 4_0_GENERATE_DS Notebook. We are in the process of having the files in a S3 location so you can avoid this step. But we keep it there in case you want to modify how to generate data for your own use case
+For the initial setup you have two options. Run the first notebook that generate the dataset or just create one staging area that is pointing to one S3 location where data is already created.
+
+OPTION 1: Generate data yourself:
+
+You have to run 4_0_GENERATE_DS Notebook. This tries to simulate some churn based on customer behavior. Fell free to modify it
+
+OPTION 2: Use files already in the staging area
+
+Just run the 4_0_USE_STAGE Notebook
 
 ### Create some UTILS Stored Procedures
 
