@@ -25,7 +25,7 @@ Let's review the steps taken:
 
 ## Setup
 
-For the initial setup you have two options. Run the first notebook that generate the dataset or just create one staging area that is pointing to one S3 location where data is already created.
+For the initial setup you have three options. Run the first notebook that generate the dataset or just create one staging area that is pointing to one S3 location where data is already created.
 
 OPTION 1: Generate data yourself:
 
@@ -34,6 +34,10 @@ You have to run 4_0_GENERATE_DS Notebook. This tries to simulate some churn base
 OPTION 2: Use files already in the staging area
 
 Just run the 4_0_USE_STAGE Notebook
+
+OPTION 3: Run all in a single Notebook
+
+Notebook E2E_ML_WORKFLOW.ipynb is ready to be run from VS Code, Cursor, Jupyter, etc. Or as a Snowflake Notebook (modify how to login). You just need to run it all. Probably this notebook is more clear on the logic taken as example
 
 ### Create some UTILS Stored Procedures
 
